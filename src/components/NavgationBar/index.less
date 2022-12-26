@@ -1,0 +1,26 @@
+.navgation-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex: 1;
+  li {
+    font-size: 16px;
+    height: 100%;
+    padding-top: 5px;
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      margin: 0 14px;
+      color: #333333;
+      box-sizing: border-box;
+      border-bottom: 3px solid transparent;
+      &.active-bar-item,
+      &:hover {
+        border-bottom-color: #fac406;
+      }
+    }
+  }
+}
