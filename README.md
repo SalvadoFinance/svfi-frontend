@@ -18,4 +18,4 @@ http://api.salvado.finance:9933/api/doc/#/Coins/Coins_GetCoinsMarket
 
 # DAPP
 
-http://www.salvado.finance/
+http://salvado.finance/
